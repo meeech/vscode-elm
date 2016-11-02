@@ -208,8 +208,8 @@
     "View function": {
       "prefix": "view",
       "body": [
-        "${view} : Model -> Html Msg",
-        "${view} model =",
+        "${view} : ${Model} -> Html Msg",
+        "${view} ${model} =",
         "  $1"
       ],
       "description": "Default view function"
