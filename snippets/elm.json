@@ -103,7 +103,8 @@
     "Import": {
       "prefix": "import",
       "body": [
-        "import ${Name} exposing ($1..)"
+        "import ${Name} exposing (${..})",
+        "$1"
       ],
       "description": "Unqualified import"
     },
